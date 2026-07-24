@@ -10,4 +10,25 @@ if(typeof UserInput == "string"){
     console.log(UserInput.length); //we can access the length property only if we are sure that the variable is of type string
 }
 
+function displayMessage(): void {
+    console.log("Welcome to TypeScript");
+}
 
+displayMessage();
+
+
+userInput = 25;
+
+// Number
+if (typeof userInput === "number") {
+
+    userInput = function () {
+    return "TypeScript";
+};
+
+// Function
+if (typeof userInput === "function") {
+    console.log(userInput());
+}
+    console.log("Square:", userInput * userInput);
+}
